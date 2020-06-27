@@ -116,3 +116,71 @@ That's All your are in Clouds Now
 ![Screenshot from 2020-06-26 16-44-22](https://user-images.githubusercontent.com/38061560/85929982-64179280-b8d6-11ea-8245-e3787b06e0d7.png)
 ![Screenshot from 2020-06-26 17-39-28](https://user-images.githubusercontent.com/38061560/85930000-89a49c00-b8d6-11ea-9de0-168b9a574f4b.png)
 ![Screenshot from 2020-06-26 23-45-27](https://user-images.githubusercontent.com/38061560/85930010-95905e00-b8d6-11ea-9837-5afcea46cc66.png)
+
+
+Opening Jenkins
+
+![Screenshot from 2020-06-27 23-36-20](https://user-images.githubusercontent.com/38061560/85931426-1012ab00-b8e2-11ea-9282-dad820f12376.png)
+![Screenshot from 2020-06-27 23-38-32](https://user-images.githubusercontent.com/38061560/85931429-130d9b80-b8e2-11ea-98ab-6ae5a74b3e52.png)
+![Screenshot from 2020-06-27 23-39-16](https://user-images.githubusercontent.com/38061560/85931430-143ec880-b8e2-11ea-9e30-0c8cd851e922.png)
+![Screenshot from 2020-06-27 23-39-31](https://user-images.githubusercontent.com/38061560/85931434-16a12280-b8e2-11ea-89fc-db57ac7f1684.png)
+![Screenshot from 2020-06-27 23-39-49](https://user-images.githubusercontent.com/38061560/85931438-186ae600-b8e2-11ea-8dda-6af52d671e74.png)
+![Screenshot from 2020-06-27 23-40-21](https://user-images.githubusercontent.com/38061560/85931441-1b65d680-b8e2-11ea-8b07-43627ebbd8f3.png)
+![Screenshot from 2020-06-27 23-40-51](https://user-images.githubusercontent.com/38061560/85931443-1dc83080-b8e2-11ea-8559-3e4dd93ded05.png)
+![Screenshot from 2020-06-27 23-40-59](https://user-images.githubusercontent.com/38061560/85931444-1ef95d80-b8e2-11ea-9dc9-021654797af4.png)
+![Screenshot from 2020-06-26 23-45-38](https://user-images.githubusercontent.com/38061560/85931177-13a53280-b8e0-11ea-8d6f-35a231584596.png)
+![Screenshot from 2020-06-26 23-50-20](https://user-images.githubusercontent.com/38061560/85931186-1e5fc780-b8e0-11ea-86ee-def006e2d902.png)
+![Screenshot from 2020-06-27 10-23-22](https://user-images.githubusercontent.com/38061560/85931191-2b7cb680-b8e0-11ea-8588-a74b93b9b0cf.png)
+![Screenshot from 2020-06-27 17-09-19](https://user-images.githubusercontent.com/38061560/85931196-35061e80-b8e0-11ea-8dad-e3d045d6b3ff.png)
+![Screenshot from 2020-06-27 17-09-28](https://user-images.githubusercontent.com/38061560/85931199-37687880-b8e0-11ea-9a26-c4656c9dee73.png)
+![Screenshot from 2020-06-27 17-23-22](https://user-images.githubusercontent.com/38061560/85931201-3a636900-b8e0-11ea-8970-317b5a8ee59d.png)
+![Screenshot from 2020-06-27 17-25-31](https://user-images.githubusercontent.com/38061560/85931202-3c2d2c80-b8e0-11ea-8939-bd917a7ec360.png)
+![Screenshot from 2020-06-27 17-57-28](https://user-images.githubusercontent.com/38061560/85931203-3d5e5980-b8e0-11ea-8053-822e3601afae.png)
+![Screenshot from 2020-06-27 17-59-02](https://user-images.githubusercontent.com/38061560/85931206-3f281d00-b8e0-11ea-99b5-fb947ac65f5e.png)
+![Screenshot from 2020-06-27 18-20-38](https://user-images.githubusercontent.com/38061560/85931413-f709fa00-b8e1-11ea-9991-3ed86bb49b82.png)
+
+![Screenshot from 2020-06-27 23-41-16](https://user-images.githubusercontent.com/38061560/85931445-20c32100-b8e2-11ea-8cdb-24f85caea3b3.png)
+![Screenshot from 2020-06-27 23-42-24](https://user-images.githubusercontent.com/38061560/85931448-21f44e00-b8e2-11ea-9d27-ffd450c967c0.png)
+![Screenshot from 2020-06-27 23-42-48](https://user-images.githubusercontent.com/38061560/85931450-23be1180-b8e2-11ea-99c2-4232ec6b2ba3.png)
+![Screenshot from 2020-06-27 23-43-02](https://user-images.githubusercontent.com/38061560/85931453-2587d500-b8e2-11ea-9529-558e685faa43.png)
+![Screenshot from 2020-06-27 23-43-49](https://user-images.githubusercontent.com/38061560/85931456-27ea2f00-b8e2-11ea-8bc2-186d3f95d3f3.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
