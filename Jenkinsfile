@@ -9,7 +9,7 @@ pipeline {
       stage('Upload to AWS') {
         steps {
           withAWS(region : 'ap-south-1', credentials:'blueocean') {
-            s3Upload(pathStyleAccessEnabled:true, payloadSigningEnabled: true, file: 'index.html', bucket:'sanketjenkins')
+            s3Upload(pathStyleAccessEnabled:true, payloadSigningEnabled: true, file: 'index.html', bucket:'udagram-dev-u')
           }
         }
       }
