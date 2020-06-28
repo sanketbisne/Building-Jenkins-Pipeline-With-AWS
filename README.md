@@ -1,5 +1,5 @@
 # Building-Jenkins-Pipeline-With-AWS
--Build CI/CD Pipelines, Monitoring, and Logging
+Build CI/CD Pipelines, Monitoring, and Logging
  
  Jenkins is an automation server that is used to automate the tasks associated with CI/CD, such as building, testing, and deploying the application. 
 
