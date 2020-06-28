@@ -1,0 +1,330 @@
+Here's a visualization of the entire IPv4 address space. 
+
+------------------------------------------------------------
+
+
+IPv4 is 32 bit ADDRESS 
+
+192.168.112.20
+
+11000000.10101000.01110000.00010100
+
+
+----------------------------------------------------------------
+
+
+
+Each square represents one possible value of the first octet of an address.
+
+ For instance, the square on the top right, labeled 15, represents all the IPv4 addresses that start with 15 as their first octet (e.g. 15.72.9.277)
+
+
+The pink squares (0, 10, and 127) are blocks that are entirely reserved. 
+
+
+The blue squares are blocks that are partially reserved. For instance, not all of the 192 block is reserved, but some of it is.
+
+    The entire green row (starting at 224) is set aside for IP multicast.
+
+    And the entire orange bottom row (starting at 240) was originally set aside for "future use" but was effectively lost due to being blocked as invalid.
+
+----------------------------------------------------------------------------
+ADDRESSING and NETWORKS
+
+192.168.112.11
+192.168.112.23
+192.168.112.48
+192.168.112.103
+
+THESE 4 ip addressess are having 24 bit net id and 8 bit host id
+therefore having 2^8 ip addressess  which is 256 ip addressesss /24
+
+individal address is 
+/22->1021
+/16-> 65533
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+
+CIDR - classless interdomain routing
+
+192.168.112.10/24
+--ip add------>---subnet mask---
+
+/24 means 24 contiguous ones followed by 8 zeroes
+11111111.11111111.11111111.0000000
+
+ can be written as 255.255.255.0
+
+if one device want to know that another device is on the same network
+take ip address of a device say 192.117.66.237 /22
+         AND BOTH 
+we get ip 192.117.64.0 ie 11111111.11111111.111111OO.0000000
+the we calculate total ip's 
+as these 2 bits form 4 octet 00,01,10,11
+therefore we get 4 ip addresssess ie 
+192.117.64
+-----------------------------------------------------------------------------
+
+192.117.65
+192.117.66
+192.117.67
+
+-----------------------------------------------------------------------------
+
+---------------------------------------------------------------------------
+
+
+Which of the following IP addresses are on the same subnet as 122.48.253.2/18?
+
+122.48.253.2->01111010.00110000.11111101.00000010
+18->11111111.11111111.11000000.00000000
+and them 
+we get 01111010.00110000.11000000.00000000
+binay convert-> 122.48.192.0
+lba ->122.48.255.255
+answer ->
+
+That's right! All IP addresses in the range 122.48.192.0 - 122.48.255.255 belong to the network. Anything outside of this range is external to the network.
+
+
+-----------------------------------------------------------------------------
+Write an IP address that is in same subnet as 172.254.3.17/8
+answer->172.0.0.0s
+-----------------------------------------------------------------------------
+Reserved Addresses on a Netblock
+
+we know, the number of addresses that are available for use in a netblock are reduced by three, because those three addresses are reserved for something. Well, what are they?
+
+    The first address (.0) is used for identification of the network,
+    the follow address (.1) is often assigned to the router,
+    the last address (.255) is called the broadcast address. Anything sent to the broadcast address will be sent out to all devices on the network.
+
+---------------------------------------------------------------------------------.
+
+OSI MODEL
+OSI model is a conceptual model of how network communication occurs. For network communication to happen, the layers must work together to transmit a message from one device to another.
+
+
+
+There are 7 layers in the OSI model. We'll start at the top-most layer, layer 7, and work our way down to layer 1.
+
+Layer 7 - Application
+
+Layer 6 - Presentation
+
+Layer 5 - Session
+
+Layer 4 - Transport
+
+Layer 3 - Network
+
+Layer 2 - Data Link
+
+Layer 1 - Physical
+------------------------------------------------------------------------------
+As we've been talking about, the OSI model is a conceptual model and helps describe data in many ways. It provides a standard for how network communication occurs, how data is transferred, and provides a way to group similar protocols together.
+
+For example, network devices can be grouped at several different layers in the OSI model. Layer 1 of the OSI model deals with the physical and electrical specification for devices. Items such as physical cables, wireless signless, the network identification card (NIC) inside a computer are all grouped at the Layer 1 level. But even though Layer 1 is called the physical layer, that doesn't mean that every physical device shows up there. For example, a switch is a Layer 2 device and a router is a Layer 3 device.
+
+The OSI Model also helps group network protocols together. Here are some of the most common protocols at each layer:
+
+    Layer 7 = HTTP
+    Layer 6 = SSL and TLS
+    Layer 5 = socket
+    Layer 4 = TCP and UDP
+    Layer 3 = IP and ICMP
+    Layer 2 = ARP
+    Layer 1 = 1000BASE-T, DSL, DOCSIS, 802.11a/b/g/n
+
+The information that goes along with the OSI Model is vast and deep, and we're not going to go into more detail on the standards and protocols than we have right here. I just want you to be aware of another aspect of the OSI model and to see from another perspective how it is a conceptual model to help group information.
+Sibling Dependence
+
+In the OSI model, a layer is only concerned with the layers above and below it. For example, layer 3 (the Network layer) is only concerned with the two layers that are on either side of it:
+
+    Layer 4 - the Transport layer
+    Layer 2 - the Data Link layer
+
+Layer 3 will receive data from Layer 4 and send it to Layer 2 or it will receive data from Layer 2 and send it to Layer 4.
+
+Layer 7 (the Application layer) is at the very top of the OSI model. Since it is at the top, it is only concerned with sending data to Layer 6 (the Presentation layer) or receiving data from Layer 6.
+
+A single layer does not need to know the whole path that data takes through the OSI model. It just need to know about the layers above and below it that it needs to interact with. Now, why is this important? Each layer in the OSI model is an abstraction layer. An abstraction layer is:
+
+    a way of hiding the working details of a subsystem
+
+For example, the way that the data is formatted, processed, and changed in Layer 2 does not matter to Layer 4, because Layer 3 abstracts those implementation details away. All Layer 4 has to worry about is how it needs to receive data from Layer 3 - it doesn't have to worry about the specifics of Layer 2 (since that's Layer 3's job).
+
+Earlier, I said:
+
+    Layer 3 will receive data from Layer 4 and send it to Layer 2 or it will receive data from Layer 2 and send it to Layer 4.
+
+When does data move down the layers from Layer 4 to Layer 3 to Layer 2 and when does the data move up the layers from Layer 2 to Layer 3 to Layer 4? These two processes are called encapsulation and decapsulation. Let's take a look at them in more detail.
+Encapsulation and Decapsulation
+
+Remember that the OSI model is a conceptual model of how data is packaged and sent across a network to another device. In this scenario, let's assume that there are only two devices that are trying to communicate with each other. The OSI model is used on both devices.
+
+As the data is being packaged up on a sending device, the data moves down the OSI model; this process of the data moving down the OSI model is called encapsulation.
+
+header and trailer are added from top to bottom 
+encapsulation happens on sending device  (down)
+and decapsualtion happens on receiveing device. (up)
+
+When the data is being unpacked on a receiving device, the data moves _up_ OSI model; this process of the data moving up the OSI model is called decapsulation.
+
+https://www.youtube.com/watch?v=HEEnLZV2wGI
+----------------------------------------------------------------------------
+SWITCHES
+
+To connect multiple devices to communicate with each other we add network switch between them
+switch connect different networks
+with there sharing a common interface called MAC address 
+Operates in DLL LAN and 
+classified into 3 categories
+
+1)Unicast  1:1
+2)multicast 1 :m (specific)
+3)broadcast 1:Many
+-----------------------------------------------------------------------------
+FRAME
+ethernet packet is send from 1 comp to 2nd comp
+ethernet packet residies on layer 1
+ethernet frame residies on layer 2
+then packets in frame are broken into individual components
+
+-preamble->7bytes
+-start frame delimeter-> 1byte
+-dest mac address->6 bytes
+-src mac address->6 bytes
+optionsl tag(802.1Q Header) -> 4 Bytes
+Frame bytes -> 2 bytes
+payload(46-1500) bytes )IP header
+FCS (frame check sequences) -> 4 bytes
+interpacket gap ->12 bytes
+
+----------------------------------------------------------------------------
+
+ Swiching at scale
+port to port connectivity is there
+and
+multiple switches can be linkedin together by specials links called trunkllinks
+scalling is problem here!
+------------------------------------------------------------------------------
+ another solution is "take n switches connect n broadcast domain with individual LAN" 
+and to connect them USE ROUTER
+these is leading to  scaling problem by adding more and more switches
+--------------------------------------------------------------------------------
+! Best Solution is Virtual Lan
+->network switch
+vlan1 
+   -host-1,2,3
+vlan2
+   -host -4,5
+vlan3
+   -host -6,7
+we can also add another network switch by trunked links
+==-------------------------------------------------------------------
+handles traffic very easily
+
+In case of several Vm running on physical host 
+link between several physical host and switch needs to be trnked links
+then trunked link is assosciated with the particular encapsulation protocol
+The packet leaving a VM is assosciated with particular VM id before leaving a Physical host
+and the decapsulation occurs at receiver host
+---------------------------------------------------
+layer 3 handles in VLAN routing---------------
+----------------------------------------------------------------------------------------------------------------------
+
+
+as we saw that networks were connected as  a  whole to a switch in a LAN
+then switch was connected to the router
+->now outer again connected in a office to a router1/many networks->router2->switch->networks.
+
+routers->decide where to send packets to which path?
+for eg:
+router1
+router2
+router3
+by destination ip address
+------------------------------------------------------------
+When querying an FQDN with an IPv6 equivalent record name, what type of query is it?
+
+
+
+
+as public ip address were 4 billiions were not sufficient that time
+so it results in address exhaustion
+
+solutions->
+private ip address
+and NAT
+---------------------------------------------------------------------
+
+Fully Qualified Domain Name (FQDN)
+
+A Fully Qualified Domain Name (FQDN) consists of three parts - the hostname, domain, and top-level domain (TLD). The format looks like so,
+
+[host name].[domain].[tld]
+
+For the FQDN www.udacity.com - www is the hostname, udacity is the domain, and com is the top-level domain.
+
+Other examples of FQDNs include:
+
+    www.wikipedia.org
+    www.baidu.com
+    maps.google.com
+    news.yandex.ru
+
+
+NAT network address translation translate  
+a set of ip addressess into another set of ip addressess
+private->public
+public->private
+internet ->router(64.74.45.4)->private(10.1.1.2,.3,.4) and vice veresa
+------------------------------------------------------------------------
+future will have every device a private ip address 
+no need of NAT
+------------------------------------------------------
+------------------------------------------------------------------
+
+Which layer does the DNS server belong to in the OSI model?
+
+application layer
+-----------------------------------------------------------------
+When querying an FQDN with an IPv4 equivalent record name, what type of query is it?
+A
+-----------------------------------------------------------------------------------
+When querying an FQDN with an IPv6 equivalent record name, what type of query is it?
+AAAA
+-----------------------------------------------------------------------------------
+DNS hierarchy 
+top level domain
+.com ,net org,edu,au,ru,cn,ae
+
+second level domain
+udacity wikipedia,csdn, stanford
+
+subdomains
+www,eu
+
+hosts 54.71.105.98
+--------------------------------------------------------
+load balancer is a server which balances the incoming traffic loads by various clients.
+
+ A Load Balancer manages traffic as well as ensures reliability and high availability of requested resources.
+
+n clients-> n servers
+---------------------------------------------------------------------------
+The load balancer removes any bad servers from the pool and ensures are requests are directed to those that are up and running.
+----------------------------------------------------------------------------
+ as soon as the load balancer detects new resources added to the pool of servers, it starts routing and managing the traffic through them as well.
+---------------------------------------------------------------------------
+
+Different ways of achieving Load Balancers
+
+-For a Round-Robin, requests are distributed across the group of servers sequentially.
+-For a BGP Anycast approach, the domain is resolved based on which DNS nameserver is topographically the closest.
+-For a policy-based load balancer, the policies define how the nameserver DNS will manage the incoming traffic.
+A dedicated load balancer sits in-line between the client resolver and the nameserver.
+-----------------------------------------------------------------------------------
+
+

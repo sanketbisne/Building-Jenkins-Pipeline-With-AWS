@@ -1,0 +1,37 @@
+with configuration management we can manage 100 servers with less than 10 peoples team
+-------------------------------------------------------------------------------
+skills
+=scripting
+=monitoring
+=builds
+=configuration management
+-automate and orchestration
+-----------------------------------------------
+python and ruby used mostly
+-----------------------------------------------
+
+DevOps is the combination of industry best practices, and set of tools that improve an organization’s ability to: *Increase the speed of software delivery
+
+---------------------------------------------------
+Increases the speed of software evolution
+Have better reliability of the software
+
+Have scalability using automation,
+
+Improved collaboration among teams. The two most important practices are - Continuous Integration / Continuous Delivery or Deployment (CI/CD) and Infrastructure as Code (IaaC).
+
+CI/CD is a consistent and automated way for a DevOps team to build, package, test, and deploy applications 
+
+
+Continuous Integration means newly developed code changes of a project are periodically built, tested, and integrated into a shared repository like Git.Then, the integrated code is verified and tested using automated tools
+
+
+Continuous Delivery is the process of automating the release of the merged and validated code to a repository and finally release a production-ready build to the production environment.
+
+-----------------------------------------------
+jenkins have uge number of plugins ->git->pipelines->blueocean pipeline
+-----------------------------------
+CI -> Lint and security testing 
+/CD  ->Deplyment and Authentication
+-----------------------------------------
+
