@@ -161,6 +161,12 @@ Welcome to Jenkins
 Install the Plugins
 Install the Plugins 
 ->BLUEOCEAN
+
+
+
+![Screenshot from 2020-06-27 23-40-21](https://user-images.githubusercontent.com/38061560/85931441-1b65d680-b8e2-11ea-8b07-43627ebbd8f3.png)
+
+
 ->GIT
 ->AWS SDK
 ->PIPELINES FOR GIT
@@ -170,6 +176,9 @@ Jenkins Default Console Will be opened
 
 ![Screenshot from 2020-06-25 17-52-17](https://user-images.githubusercontent.com/38061560/85929938-2b77b900-b8d6-11ea-8093-9401c6ccfc8d.png)
 
+
+Manage Jenkins
+![Screenshot from 2020-06-27 23-39-49](https://user-images.githubusercontent.com/38061560/85931438-186ae600-b8e2-11ea-8dda-6af52d671e74.png)
 
 Jenkins Blueocean Console 
 
@@ -212,16 +221,22 @@ we need to Add 3 Stages
 
 
 that is:
->Built
->Stage
+>Build
+>Test
 >DEploy
 
 ![Screenshot from 2020-06-26 08-36-17](https://user-images.githubusercontent.com/38061560/85929975-57933a00-b8d6-11ea-8b27-1d6c4bd8b1cb.png)
 
 Satge ONE:
 BUILD
-![Screenshot from 2020-06-26 16-44-22](https://user-images.githubusercontent.com/38061560/85929982-64179280-b8d6-11ea-8245-e3787b06e0d7.png)
+
 ![Screenshot from 2020-06-26 17-39-28](https://user-images.githubusercontent.com/38061560/85930000-89a49c00-b8d6-11ea-9de0-168b9a574f4b.png)
+
+Lint HTML
+In this Pipeline
+Code will be pulled from 
+Github and pushed to jenkins server
+and Code will passed through several changes
 ![Screenshot from 2020-06-26 23-45-27](https://user-images.githubusercontent.com/38061560/85930010-95905e00-b8d6-11ea-9837-5afcea46cc66.png)
 
 
@@ -229,12 +244,36 @@ Opening Jenkins
 
 ![Screenshot from 2020-06-27 23-36-20](https://user-images.githubusercontent.com/38061560/85931426-1012ab00-b8e2-11ea-9282-dad820f12376.png)
 ![Screenshot from 2020-06-27 23-38-32](https://user-images.githubusercontent.com/38061560/85931429-130d9b80-b8e2-11ea-98ab-6ae5a74b3e52.png)
+
+LoGIN TO JENKINS
 ![Screenshot from 2020-06-27 23-39-16](https://user-images.githubusercontent.com/38061560/85931430-143ec880-b8e2-11ea-9e30-0c8cd851e922.png)
+
+We can See Master Node is Running
 ![Screenshot from 2020-06-27 23-39-31](https://user-images.githubusercontent.com/38061560/85931434-16a12280-b8e2-11ea-89fc-db57ac7f1684.png)
-![Screenshot from 2020-06-27 23-39-49](https://user-images.githubusercontent.com/38061560/85931438-186ae600-b8e2-11ea-8dda-6af52d671e74.png)
-![Screenshot from 2020-06-27 23-40-21](https://user-images.githubusercontent.com/38061560/85931441-1b65d680-b8e2-11ea-8b07-43627ebbd8f3.png)
+
+Whenever there is changed in github , developer pushes the code 
+the code go through various Stages
+and 
+Finally 
+Deployed at the end
+
+
 ![Screenshot from 2020-06-27 23-40-51](https://user-images.githubusercontent.com/38061560/85931443-1dc83080-b8e2-11ea-8559-3e4dd93ded05.png)
+
+Here the Aws stage was not added so build Failed
 ![Screenshot from 2020-06-27 23-40-59](https://user-images.githubusercontent.com/38061560/85931444-1ef95d80-b8e2-11ea-9dc9-021654797af4.png)
+
+GO to AWS S3 
+Simple Storage Service
+
+Create a Bucket
+
+Name -Udagram-dev-u
+
+Inside the bucket Code will be added from Github 
+index.html file will be deployed 
+and We can access it anywhere
+
 ![Screenshot from 2020-06-26 23-45-38](https://user-images.githubusercontent.com/38061560/85931177-13a53280-b8e0-11ea-8d6f-35a231584596.png)
 ![Screenshot from 2020-06-26 23-50-20](https://user-images.githubusercontent.com/38061560/85931186-1e5fc780-b8e0-11ea-86ee-def006e2d902.png)
 ![Screenshot from 2020-06-27 10-23-22](https://user-images.githubusercontent.com/38061560/85931191-2b7cb680-b8e0-11ea-8588-a74b93b9b0cf.png)
