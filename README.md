@@ -296,7 +296,7 @@ And Deploy
 ![Screenshot from 2020-06-27 17-25-31](https://user-images.githubusercontent.com/38061560/85931202-3c2d2c80-b8e0-11ea-8939-bd917a7ec360.png)
 ![Screenshot from 2020-06-27 17-57-28](https://user-images.githubusercontent.com/38061560/85931203-3d5e5980-b8e0-11ea-8053-822e3601afae.png)
 ![Screenshot from 2020-06-27 17-59-02](https://user-images.githubusercontent.com/38061560/85931206-3f281d00-b8e0-11ea-99b5-fb947ac65f5e.png)
-![Screenshot from 2020-06-27 18-20-38](https://user-images.githubusercontent.com/38061560/85931413-f709fa00-b8e1-11ea-9991-3ed86bb49b82.png)
+
 
 ![Screenshot from 2020-06-27 23-41-16](https://user-images.githubusercontent.com/38061560/85931445-20c32100-b8e2-11ea-8cdb-24f85caea3b3.png)
 ![Screenshot from 2020-06-27 23-42-24](https://user-images.githubusercontent.com/38061560/85931448-21f44e00-b8e2-11ea-9d27-ffd450c967c0.png)
@@ -310,7 +310,9 @@ Happy Cloud !
 
 ![Screenshot from 2020-06-27 23-43-49](https://user-images.githubusercontent.com/38061560/85931456-27ea2f00-b8e2-11ea-8bc2-186d3f95d3f3.png)
 
-
+Final Website Will be Look Like This !
+Thank You
+![Screenshot from 2020-06-27 18-20-38](https://user-images.githubusercontent.com/38061560/85931413-f709fa00-b8e1-11ea-9991-3ed86bb49b82.png)
 
 
 
