@@ -138,28 +138,54 @@ SSH into the AWS ubuntu server
 
 ![Screenshot from 2020-06-25 12-29-46](https://user-images.githubusercontent.com/38061560/85929905-008d6500-b8d6-11ea-8a1d-4a6180bddd50.png)
 
-Install Jenkins 
+Successfully SSHed into the server
 ![Screenshot from 2020-06-25 16-26-23](https://user-images.githubusercontent.com/38061560/85929909-084d0980-b8d6-11ea-99fe-5292e32b6b04.png)
 
-Create Root User
+Getting Started with Jenkins
+CI/CD Tool
 ![Screenshot from 2020-06-25 16-36-31](https://user-images.githubusercontent.com/38061560/85929914-0c792700-b8d6-11ea-8ef4-994e41370b3f.png)
 
 Jenkins Url is Available
+
+Copy the Path /var/lib/jenkins/initialAdmin/Password
+
+we'll get the Password copy and paste into the Admin Password Field
+
 ![Screenshot from 2020-06-25 17-34-55](https://user-images.githubusercontent.com/38061560/85929920-16028f00-b8d6-11ea-90b0-4a9300c292d2.png)
 
-Installing The Plugins
+Jenkins will run on Port Url:8080
 ![Screenshot from 2020-06-25 17-35-47](https://user-images.githubusercontent.com/38061560/85929928-20248d80-b8d6-11ea-98f3-57d99c1f8aa0.png)
 
-Welcome to Jenkins
+Welcome to Jenkins 
+
+Install the Plugins
+Install the Plugins 
+->BLUEOCEAN
+->GIT
+->AWS SDK
+->PIPELINES FOR GIT
 ![Screenshot from 2020-06-25 17-39-46](https://user-images.githubusercontent.com/38061560/85929932-261a6e80-b8d6-11ea-899f-56bdcec886d5.png)
 
-Install the Plugins 
->BLUEOCEAN
->GIT
->AWS SDK
->PIPELINES FOR GIT
+Jenkins Default Console Will be opened
+
 ![Screenshot from 2020-06-25 17-52-17](https://user-images.githubusercontent.com/38061560/85929938-2b77b900-b8d6-11ea-8093-9401c6ccfc8d.png)
+
+
+Jenkins Blueocean Console 
+Just click on
+Open blueocean
+
+Now We have to create our First Pipeline
+
+
 ![Screenshot from 2020-06-25 17-54-33](https://user-images.githubusercontent.com/38061560/85929944-316d9a00-b8d6-11ea-9e08-abd6bed6fbc6.png)
+
+
+We can Use Any Version Control Platform To Store Our Code
+
+We are using HEre 
+Github
+
 ![Screenshot from 2020-06-25 18-00-05](https://user-images.githubusercontent.com/38061560/85929946-35012100-b8d6-11ea-845a-e95bf7c89cca.png)
 ![Screenshot from 2020-06-25 18-00-12](https://user-images.githubusercontent.com/38061560/85929947-37fc1180-b8d6-11ea-83ce-329c00c52d3d.png)
 ![Screenshot from 2020-06-25 18-00-18](https://user-images.githubusercontent.com/38061560/85929950-3a5e6b80-b8d6-11ea-9f63-5e9ea448b450.png)
