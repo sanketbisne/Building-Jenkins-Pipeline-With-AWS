@@ -199,14 +199,27 @@ Connect To the Github Repository
 
 Go to Github Account
 
-
-
-![Screenshot from 2020-06-25 18-04-06](https://user-images.githubusercontent.com/38061560/85929951-3cc0c580-b8d6-11ea-8c97-e709072d9a0f.png)
 Create Tokens
 
 Choose Repository Name
-![Screenshot from 2020-06-25 21-03-35](https://user-images.githubusercontent.com/38061560/85929957-45190080-b8d6-11ea-9736-65f11a683630.png)
+
+![Screenshot from 2020-06-25 18-04-06](https://user-images.githubusercontent.com/38061560/85929951-3cc0c580-b8d6-11ea-8c97-e709072d9a0f.png)
+
+Now the Pipeline has been built
+
+We need to collect the Website code from pipeline and 
+we need to Add 3 Stages
+
+
+that is:
+>Built
+>Stage
+>DEploy
+
 ![Screenshot from 2020-06-26 08-36-17](https://user-images.githubusercontent.com/38061560/85929975-57933a00-b8d6-11ea-8b27-1d6c4bd8b1cb.png)
+
+Satge ONE:
+BUILD
 ![Screenshot from 2020-06-26 16-44-22](https://user-images.githubusercontent.com/38061560/85929982-64179280-b8d6-11ea-8245-e3787b06e0d7.png)
 ![Screenshot from 2020-06-26 17-39-28](https://user-images.githubusercontent.com/38061560/85930000-89a49c00-b8d6-11ea-9de0-168b9a574f4b.png)
 ![Screenshot from 2020-06-26 23-45-27](https://user-images.githubusercontent.com/38061560/85930010-95905e00-b8d6-11ea-9837-5afcea46cc66.png)
