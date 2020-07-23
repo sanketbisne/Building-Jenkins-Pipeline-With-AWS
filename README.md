@@ -274,9 +274,22 @@ Inside the bucket Code will be added from Github
 index.html file will be deployed 
 and We can access it anywhere
 
+
 ![Screenshot from 2020-06-26 23-45-38](https://user-images.githubusercontent.com/38061560/85931177-13a53280-b8e0-11ea-8d6f-35a231584596.png)
+
+
+Now,Here We can Run the Job Manually
 ![Screenshot from 2020-06-26 23-50-20](https://user-images.githubusercontent.com/38061560/85931186-1e5fc780-b8e0-11ea-86ee-def006e2d902.png)
+
+Adding Webhhok From Github will Automatically Trigger The build
+
+
 ![Screenshot from 2020-06-27 10-23-22](https://user-images.githubusercontent.com/38061560/85931191-2b7cb680-b8e0-11ea-8588-a74b93b9b0cf.png)
+
+Now the Build Will run 
+And Copy File From S3 
+And Deploy
+
 ![Screenshot from 2020-06-27 17-09-19](https://user-images.githubusercontent.com/38061560/85931196-35061e80-b8e0-11ea-8dad-e3d045d6b3ff.png)
 ![Screenshot from 2020-06-27 17-09-28](https://user-images.githubusercontent.com/38061560/85931199-37687880-b8e0-11ea-9a26-c4656c9dee73.png)
 ![Screenshot from 2020-06-27 17-23-22](https://user-images.githubusercontent.com/38061560/85931201-3a636900-b8e0-11ea-8970-317b5a8ee59d.png)
@@ -288,7 +301,13 @@ and We can access it anywhere
 ![Screenshot from 2020-06-27 23-41-16](https://user-images.githubusercontent.com/38061560/85931445-20c32100-b8e2-11ea-8cdb-24f85caea3b3.png)
 ![Screenshot from 2020-06-27 23-42-24](https://user-images.githubusercontent.com/38061560/85931448-21f44e00-b8e2-11ea-9d27-ffd450c967c0.png)
 ![Screenshot from 2020-06-27 23-42-48](https://user-images.githubusercontent.com/38061560/85931450-23be1180-b8e2-11ea-99c2-4232ec6b2ba3.png)
+
+Make the File Publicly Accessible
 ![Screenshot from 2020-06-27 23-43-02](https://user-images.githubusercontent.com/38061560/85931453-2587d500-b8e2-11ea-9529-558e685faa43.png)
+
+Copy the endpoint And
+Happy Cloud !
+
 ![Screenshot from 2020-06-27 23-43-49](https://user-images.githubusercontent.com/38061560/85931456-27ea2f00-b8e2-11ea-8bc2-186d3f95d3f3.png)
 
 
