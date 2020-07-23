@@ -87,24 +87,77 @@ A Jenkinsfile exists, that has the stages and steps defined that match how the p
 
 That's All your are in Clouds Now
 
+Sign in to your Aws management Console
+Open Aws Management Console 
+Right in Your Browser
+aws.amazon.com
 
 ![Screenshot from 2020-06-27 23-49-11](https://user-images.githubusercontent.com/38061560/85929718-ba83d180-b8d4-11ea-9f52-0e1b5fd054a2.png)
 
+Choose the VM 
+
+
 ![Screenshot from 2020-06-25 11-57-22](https://user-images.githubusercontent.com/38061560/85929816-7c3ae200-b8d5-11ea-9183-2a4fe0c1c1b1.png)
+
+Choose the Type of Instance
+
 ![Screenshot from 2020-06-25 11-58-12](https://user-images.githubusercontent.com/38061560/85929819-83fa8680-b8d5-11ea-9f43-a1402cc6516a.png)
+
+Configure Instance Details
+
+
 ![Screenshot from 2020-06-25 11-58-18](https://user-images.githubusercontent.com/38061560/85929832-8eb51b80-b8d5-11ea-8871-17e304315bfe.png)
+
+Add Storage:
+
 ![Screenshot from 2020-06-25 11-58-43](https://user-images.githubusercontent.com/38061560/85929834-95dc2980-b8d5-11ea-81aa-526f6dabf2a6.png)
+Add TAgs:
+
+
 ![Screenshot from 2020-06-25 11-58-56](https://user-images.githubusercontent.com/38061560/85929841-9bd20a80-b8d5-11ea-8b11-c7dd04408b88.png)
+
+Configure Security Group:
+
 ![Screenshot from 2020-06-25 11-59-00](https://user-images.githubusercontent.com/38061560/85929852-a4c2dc00-b8d5-11ea-9a99-791e4f39a3db.png)
+Review Instance Launch:
+
+
 ![Screenshot from 2020-06-25 11-59-06](https://user-images.githubusercontent.com/38061560/85929853-ab515380-b8d5-11ea-9aeb-155131445edd.png)
+
+Launch Status:
+
 ![Screenshot from 2020-06-25 12-00-54](https://user-images.githubusercontent.com/38061560/85929872-cde36c80-b8d5-11ea-99f8-20b9a3c1b851.png)
+
+
+We can See the Instance Runnning:
+
 ![Screenshot from 2020-06-25 12-09-22](https://user-images.githubusercontent.com/38061560/85929902-fc614780-b8d5-11ea-823d-55bbb239f6b5.png)
+
+
+SSH into the AWS ubuntu server
+
 ![Screenshot from 2020-06-25 12-29-46](https://user-images.githubusercontent.com/38061560/85929905-008d6500-b8d6-11ea-8a1d-4a6180bddd50.png)
+
+Install Jenkins 
 ![Screenshot from 2020-06-25 16-26-23](https://user-images.githubusercontent.com/38061560/85929909-084d0980-b8d6-11ea-99fe-5292e32b6b04.png)
+
+Create Root User
 ![Screenshot from 2020-06-25 16-36-31](https://user-images.githubusercontent.com/38061560/85929914-0c792700-b8d6-11ea-8ef4-994e41370b3f.png)
+
+Jenkins Url is Available
 ![Screenshot from 2020-06-25 17-34-55](https://user-images.githubusercontent.com/38061560/85929920-16028f00-b8d6-11ea-90b0-4a9300c292d2.png)
+
+Installing The Plugins
 ![Screenshot from 2020-06-25 17-35-47](https://user-images.githubusercontent.com/38061560/85929928-20248d80-b8d6-11ea-98f3-57d99c1f8aa0.png)
+
+Welcome to Jenkins
 ![Screenshot from 2020-06-25 17-39-46](https://user-images.githubusercontent.com/38061560/85929932-261a6e80-b8d6-11ea-899f-56bdcec886d5.png)
+
+Install the Plugins 
+>BLUEOCEAN
+>GIT
+>AWS SDK
+>PIPELINES FOR GIT
 ![Screenshot from 2020-06-25 17-52-17](https://user-images.githubusercontent.com/38061560/85929938-2b77b900-b8d6-11ea-8093-9401c6ccfc8d.png)
 ![Screenshot from 2020-06-25 17-54-33](https://user-images.githubusercontent.com/38061560/85929944-316d9a00-b8d6-11ea-9e08-abd6bed6fbc6.png)
 ![Screenshot from 2020-06-25 18-00-05](https://user-images.githubusercontent.com/38061560/85929946-35012100-b8d6-11ea-845a-e95bf7c89cca.png)
