@@ -111,7 +111,7 @@ Configure Instance Details
 Add Storage:
 
 ![Screenshot from 2020-06-25 11-58-43](https://user-images.githubusercontent.com/38061560/85929834-95dc2980-b8d5-11ea-81aa-526f6dabf2a6.png)
-Add TAgs:
+Add Tags:
 
 
 ![Screenshot from 2020-06-25 11-58-56](https://user-images.githubusercontent.com/38061560/85929841-9bd20a80-b8d5-11ea-8b11-c7dd04408b88.png)
@@ -172,24 +172,39 @@ Jenkins Default Console Will be opened
 
 
 Jenkins Blueocean Console 
+
 Just click on
 Open blueocean
 
-Now We have to create our First Pipeline
+
 
 
 ![Screenshot from 2020-06-25 17-54-33](https://user-images.githubusercontent.com/38061560/85929944-316d9a00-b8d6-11ea-9e08-abd6bed6fbc6.png)
 
+Now We have to create our First Pipeline
+
+
+![Screenshot from 2020-06-25 18-00-05](https://user-images.githubusercontent.com/38061560/85929946-35012100-b8d6-11ea-845a-e95bf7c89cca.png)
+
 
 We can Use Any Version Control Platform To Store Our Code
 
-We are using HEre 
+We are using Here 
 Github
-
-![Screenshot from 2020-06-25 18-00-05](https://user-images.githubusercontent.com/38061560/85929946-35012100-b8d6-11ea-845a-e95bf7c89cca.png)
 ![Screenshot from 2020-06-25 18-00-12](https://user-images.githubusercontent.com/38061560/85929947-37fc1180-b8d6-11ea-83ce-329c00c52d3d.png)
+
+Connect To the Github Repository
+
 ![Screenshot from 2020-06-25 18-00-18](https://user-images.githubusercontent.com/38061560/85929950-3a5e6b80-b8d6-11ea-9f63-5e9ea448b450.png)
+
+Go to Github Account
+
+
+
 ![Screenshot from 2020-06-25 18-04-06](https://user-images.githubusercontent.com/38061560/85929951-3cc0c580-b8d6-11ea-8c97-e709072d9a0f.png)
+Create Tokens
+
+Choose Repository Name
 ![Screenshot from 2020-06-25 21-03-35](https://user-images.githubusercontent.com/38061560/85929957-45190080-b8d6-11ea-9736-65f11a683630.png)
 ![Screenshot from 2020-06-26 08-36-17](https://user-images.githubusercontent.com/38061560/85929975-57933a00-b8d6-11ea-8b27-1d6c4bd8b1cb.png)
 ![Screenshot from 2020-06-26 16-44-22](https://user-images.githubusercontent.com/38061560/85929982-64179280-b8d6-11ea-8245-e3787b06e0d7.png)
