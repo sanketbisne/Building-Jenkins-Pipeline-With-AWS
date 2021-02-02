@@ -20,7 +20,7 @@ pipeline {
               steps {
                   withAWS(region:'ap-south-1',credentials:'blueocean') {
                   sh 'echo "Uploading content with AWS creds"'
-                      s3Upload(pathStyleAccessEnabled: true, payloadSigningEnabled: true, file:'index.html', bucket:'udagram-dev-u')
+                      s3Upload(pathStyleAccessEnabled: true, payloadSigningEnabled: true, file:'index.html', bucket:'c15bucket')
                   }
               }
          }
