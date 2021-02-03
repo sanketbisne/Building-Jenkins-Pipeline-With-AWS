@@ -235,7 +235,7 @@ Now We have to create our First Pipeline
 ![Screenshot from 2020-06-25 18-00-05](https://user-images.githubusercontent.com/38061560/85929946-35012100-b8d6-11ea-845a-e95bf7c89cca.png)
 
 
-We can Use Any Version Control Platform To  Our Code
+We can Use Any Version Control Platform To store Our Code
 
 We are using Here 
 Github
@@ -287,7 +287,10 @@ Opening Jenkins
 LoGIN TO JENKINS
 ![Screenshot from 2020-06-27 23-39-16](https://user-images.githubusercontent.com/38061560/85931430-143ec880-b8e2-11ea-9e30-0c8cd851e922.png)
 
-We can See Master Node is Running
+
+
+
+See Master Node is Running
 ![Screenshot from 2020-06-27 23-39-31](https://user-images.githubusercontent.com/38061560/85931434-16a12280-b8e2-11ea-89fc-db57ac7f1684.png)
 
 Whenever there is changed in github , developer pushes the code 
