@@ -63,7 +63,9 @@ Create Pipeline
 
 Add Github Repository
 
-Add Secret key
+Add Secret key to Global Credentials in Jenkins
+
+Install S3 Publisher Plugin from Available Options and add Bucket name IAM Access  ID and Secret Key to Authenticate the user and deploy bucket in Right Region
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 OPEN ANY IDE
 CREATE Jenkinsfile->Add Stages To it
@@ -91,6 +93,43 @@ Sign in to your Aws management Console
 Open Aws Management Console 
 Right in Your Browser
 aws.amazon.com
+
+
+AWS Setup
+
+1.Create Policy
+- Name it Minimum Security model
+
+Add services
+- Ec2
+- s3
+- cloudwatch
+
+Give them Full access
+
+And select to give Access to All Resources
+
+
+2. Create Group
+- Name it Devopsc3
+- Select Your Policy Apply
+
+3. Create User
+- UserName : c15User
+- Give it Full Programatic Access
+- Give it Full Console Access
+- Add User to Group By Selecting Policy
+
+4. Add Tags 
+for eg : Instructor: DevOpsc3
+         Firstname : User1
+         
+5. Create User
+
+Sign in into New IAM User
+
+Create EC2 Instance
+
 
 ![Screenshot from 2020-06-27 23-49-11](https://user-images.githubusercontent.com/38061560/85929718-ba83d180-b8d4-11ea-9f52-0e1b5fd054a2.png)
 
@@ -196,7 +235,7 @@ Now We have to create our First Pipeline
 ![Screenshot from 2020-06-25 18-00-05](https://user-images.githubusercontent.com/38061560/85929946-35012100-b8d6-11ea-845a-e95bf7c89cca.png)
 
 
-We can Use Any Version Control Platform To Store Our Code
+We can Use Any Version Control Platform To  Our Code
 
 We are using Here 
 Github
@@ -306,11 +345,14 @@ Make the File Publicly Accessible
 ![Screenshot from 2020-06-27 23-43-02](https://user-images.githubusercontent.com/38061560/85931453-2587d500-b8e2-11ea-9529-558e685faa43.png)
 
 Copy the endpoint And
+
 Happy Cloud !
 
 ![Screenshot from 2020-06-27 23-43-49](https://user-images.githubusercontent.com/38061560/85931456-27ea2f00-b8e2-11ea-8bc2-186d3f95d3f3.png)
 
 Final Website Will be Look Like This !
+
+
 Thank You
 ![Screenshot from 2020-06-27 18-20-38](https://user-images.githubusercontent.com/38061560/85931413-f709fa00-b8e1-11ea-9991-3ed86bb49b82.png)
 
